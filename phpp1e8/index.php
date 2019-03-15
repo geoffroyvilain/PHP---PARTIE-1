@@ -1,5 +1,6 @@
 <?php
-// ON CREE 3 VARIABLES AVEC 3 CALCULS
+// ON CREE 3 VARIABLES AVEC 3 CALCULS, ON NE MET PAS DE QUOTE
+// ON STOCKE LE RESULTAT DANS UNE VARIABLE
   $firstCalcul = 3 + 4;
   $secondCalcul = 5 * 20;
   $thirstCalcul = 45 / 5;
@@ -15,10 +16,10 @@
        Dans la première mettre le résultat de l'opération 3 + 4.
        Dans la deuxième mettre le résultat de l'opération 5 * 20.
        Dans la troisième mettre le résultat de l'opération 45 / 5.
-       Afficher le contenu des variables.</h1>
-
-       <p>Calcul : 3+4 = <?php echo $firstCalcul ?></p>
-       <p>Calcul : 5*20 = <?php echo $secondCalcul ?></p>
+       Afficher le contenu des variables.
+     </h1>
+       <p>Calcul : 3 + 4 = <?php echo $firstCalcul ?></p>
+       <p>Calcul : 5 * 20 = <?php echo $secondCalcul ?></p>
        <p>Calcul : 45 / 5 = <?php echo $thirstCalcul ?></p>
    </body>
  </html>
